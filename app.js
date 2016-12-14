@@ -6,6 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var rollbar = require("rollbar");
 var config = require('./lib/config');
+var myvariable = 'myvariable';
 
 rollbar.init(config.ROLLBAR_TOKEN);
 
